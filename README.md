@@ -14,8 +14,6 @@ This site allows you to see a city's weather up to 5 days in advance.
 
  -I built this project to give people a way to search for the weather in different cities.
 
- -<
-
  -I learned how to use API calls and how to show an image based on variable conditions.
 
 
