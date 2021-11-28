@@ -1,0 +1,85 @@
+/* :root {
+        --dark-grey: #363532;
+        --dark-brown: #4d463d;
+        --khaki: #c3a377;
+        --tiffany: #54b4b4; 
+        --teal: #207375;
+        --crimson: #bc2e39;
+        --darkerTeal: #155b64;
+        --cream: #f5f4ec;
+}
+
+body {
+    background-color: var(--khaki);
+}
+
+header {
+    background-color: var(--khaki);
+    margin: 0px;
+    justify-content: center;
+    
+}
+
+.header {
+    background-color: var(--khaki);
+    color: var(--cream);
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+ .searchContainer {
+     background-color: var(--dark-grey);
+     color: var(--cream);
+     height: 100%;
+ } */
+
+body {
+    margin: 0px !important; 
+}
+
+.title{
+    font-size: 40px !important;
+    font-weight: bolder !important;
+    color:ghostwhite !important;
+}
+
+.searchCityResult {
+    font-size: 20px !important;
+    font-weight: bolder;
+    background-color: gray;
+    border: black;
+    border-radius: 10px;
+    border-width: 2px;
+    padding:20px;
+    color: ghostwhite;
+    margin: 20px;
+    min-height: 200px;
+    
+}
+
+.daycard {
+    background-color: blue;
+    border: blue;
+    border-radius: 5px;
+    color: ghostwhite;
+    padding: 10px;
+    margin: 15px;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.navbar{
+    background-color: blue !important;
+    color:ghostwhite;
+    margin:0px;
+    justify-content: center;
+    font-weight: bolder;
+    border-radius: 5px;
+    border:blue
+
+}
+
+.nav-brand {
+    font-weight: bolder !important;
+    font-size: 20px !important;
+}
