@@ -2,6 +2,8 @@
 
 # Weather-Dash
 
+<img width="1143" alt="Screen Shot 2021-11-27 at 9 49 28 PM" src="https://user-images.githubusercontent.com/87551856/143731642-69b17eec-4d31-4071-b6a2-ec7f46118458.png">
+
 
 [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
