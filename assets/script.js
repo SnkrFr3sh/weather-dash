@@ -18,6 +18,8 @@ recentSearchListItem = $('.recentSearchListItem');
 listItem1 = $('.listItem1');
 listItem2 = $('.listItem2');
 listItem3 = $('.listItem3');
+listItem4 = $('.listItem4');
+listItem5 = $('.listItem5');
 currentWeatherIcon = $('#currentWeatherIcon')
 
 
@@ -51,7 +53,8 @@ searchBtn.on('click', function () {
     recentSearches.push(userCity.val());
 
     localStorage.setItem('recentSearches', recentSearches)
-
+    console.log('search list', recentSearches)
+    searchList()
     currentCityResult();
     fiveDayForecast();
 
@@ -61,8 +64,16 @@ searchBtn.on('click', function () {
 function searchList() {
     for (let i = 0; i < recentSearches.length; i++) {
         var listItem = document.createElement('li');
-        listItem.textContent = recentSearches[i];
-        recentSearchList.append(listItem);
+        listItem1.text(recentSearches[0]);
+        listItem2.text(recentSearches[1]);
+        listItem3.text(recentSearches[2]);
+        listItem4.text(recentSearches[3]);
+        listItem5.text(recentSearches[4]);
+        recentSearchList.append(listItem1);
+        recentSearchList.append(listItem2);
+        recentSearchList.append(listItem3);
+        recentSearchList.append(listItem4);
+        recentSearchList.append(listItem5);
     }
 }
 
